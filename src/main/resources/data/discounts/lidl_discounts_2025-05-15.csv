@@ -1,0 +1,3 @@
+product_id;product_name;brand;package_quantity;package_unit;product_category;from_date;to_date;percentage_of_discount
+P017;piept pui;Lidl;1;kg;carne;2025-05-23;2025-05-24;9
+P055;cartofi albi;Lidl;1;kg;legume și fructe;2025-05-22;2025-05-25;7
