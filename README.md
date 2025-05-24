@@ -27,6 +27,8 @@ Price Comparator - Market Application helps users split their basket into store-
   - Implemented in: `customPriceAlert()`
 
 # Project Structure
+All Java source files are organized under the `src/main/java` directory, structured into packages by functionality, plus the main application class. Resource files, such as CSV data for products and discounts, are kept separate in the `src/main/resources/data` folder. This clear separation between source code and external resources helps keep the project easy to maintain and understand.
+
 ```
 src
  └── main
@@ -48,3 +50,14 @@ src
              └── products
                  └──── CSV files for products
 ```
+* `model` package
+  - Contains the classes `Discount.java` and `Product.java` that define the main data models that are used in the application.
+* `repository` package
+  - Contains the `DiscountRepository.java` and `ProductRepository.java` classes responsible for reading and loading product and discount data from CSV files located in specific folders.
+  - These classes parse the CSV content into Product and Discount objects and organize them by store name inferred from the file names.
+* `service` package
+  - Contains the `PriceComparatorService.java` class which implements the core business logic of the application.
+  - This class holds the methods that I mentioned in the features section, handling operations such as optimizing shopping baskets, displaying best and new discounts, showing price history graphs, recommending substitutes, and managing custom price alerts.
+* Main class `PriceComparatorMarket.java`
+  - This is the entry point of the application, from where the application is run.
+  - It manages user interaction through a console menu and calls methods implemented in the PriceComparatorService.
