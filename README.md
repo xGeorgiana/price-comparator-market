@@ -13,3 +13,4 @@ resources/
      ├── products/
      └── discounts/
 ```
+> This is a code
