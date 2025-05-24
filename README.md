@@ -72,7 +72,7 @@ git clone https://github.com/xGeorgiana/price-comparator-market.git
 ```
 2. Navigate to the project directory
 ```
-cd repository-name
+cd price-comparator-market
 ```
 3. Build the project using Maven
 ```
