@@ -9,7 +9,7 @@ Price Comparator - Market Application helps users split their basket into store-
 # Features
 1. Daily Shopping Basket Monitoring
   - Helps users split their basket into store-specific shopping lists by automatically selecting the cheapest available product for each item, enabling cost-effective shopping and displaying the results clearly organized by store.
-  - Implemented in: 'optimizeShoppingBasket()'
+  - Implemented in: > optimizeShoppingBasket()
 2. Best Discounts
   - Splits the user's basket into store-specific shopping lists by selecting the cheapest available option for each product, helping users make cost-effective purchasing decisions.
   - Implemented in: 'optimizeShoppingBasket()'
