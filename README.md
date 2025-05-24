@@ -11,17 +11,19 @@ src
  └── main
      ├── java
      |   ├── com.georgiana.pricecomparatormarket
-     |   │   ├── model/
+     |   │   ├── model
      |   |   |   ├──── Discount.java
      |   |   |   └──── Product.java 
-     │   |   ├── repository/
+     │   |   ├── repository
      |   |   |   ├──── DiscountRepository.java
      |   |   |   └──── ProductRepository.java 
-     │   |   ├── service/
+     │   |   ├── service
      |   |   |   └──── PriceComparatorService.java
      │   └── PriceComparatorMarket.java 
-     └── resources/
-         └── data/
-             ├── products/
-             └── discounts/
+     └── resources
+         └── data
+             ├── discounts
+             |   └──── CSV files for discounts applied to products
+             └── products
+                 └──── CSV files for products
 ```
