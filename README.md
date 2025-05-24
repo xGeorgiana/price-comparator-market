@@ -82,3 +82,23 @@ mvn clean install
 ```
 mvn exec:java -Dexec.mainClass="com.georgiana.pricecomparatormarket.PriceComparatorMarket"
 ```
+
+# Assumptions and Simplifications
+* The product and discount data are loaded from CSV files located in predefined folders (`src/main/resources/data/product`s and `src/main/resources/data/discounts`).
+* Store names are inferred from the CSV file names by extracting the prefix before the underscore.
+* The price alert feature only displays a message as an alert in the console.
+
+# Usage
+After running the application, users interact with a console menu where they can select from several options. Each menu option corresponds to a specific feature of the application, which is then executed and displays the relevant information or result on the console.
+```
+*--- Price Comparator-Market ---*
+1. Daily Shopping Basket Monitoring
+2. Best Discounts
+3. New Discounts
+4. Dynamic Price History Graphs
+5. Product Substitutes & Recommendations
+6. Custom Price Alert
+7. Exit
+Choose an option: 
+```
+Simply enter the number corresponding to the desired feature and follow the on-screen prompts.
