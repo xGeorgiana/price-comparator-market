@@ -69,20 +69,16 @@ To run this project locally, follow these steps:
 1. Clone the repository
 ```
 git clone https://github.com/xGeorgiana/price-comparator-market.git
-
 ```
 2. Navigate to the project directory
 ```
 cd repository-name
-
 ```
 3. Build the project using Maven
 ```
 mvn clean install
-
 ```
 4. Run the application from the terminat (OR simply RUN it from your IDE)
 ```
 mvn exec:java -Dexec.mainClass="com.georgiana.pricecomparatormarket.PriceComparatorMarket"
-
 ```
