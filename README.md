@@ -7,14 +7,21 @@ Price Comparator - Market application allows users to users to track price chang
 
 # Project Structure
 ```
-src/
- ├── com.georgiana.pricecomparatormarket
- │   ├── model/
- │   ├── repository/
- │   ├── service/
- │   └── PriceComparatorMarket.java (main class)
-resources/
- └── data/
-     ├── products/
-     └── discounts/
+src
+ └── main
+     ├── java
+     |   ├── com.georgiana.pricecomparatormarket
+     |   │   ├── model/
+     |   |   |   ├──── Discount.java
+     |   |   |   └──── Product.java 
+     │   |   ├── repository/
+     |   |   |   ├──── DiscountRepository.java
+     |   |   |   └──── ProductRepository.java 
+     │   |   ├── service/
+     |   |   |   └──── PriceComparatorService.java
+     │   └── PriceComparatorMarket.java 
+     └── resources/
+         └── data/
+             ├── products/
+             └── discounts/
 ```
