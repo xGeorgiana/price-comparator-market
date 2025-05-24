@@ -11,12 +11,20 @@ Price Comparator - Market Application helps users split their basket into store-
   - Helps users split their basket into store-specific shopping lists by automatically selecting the cheapest available product for each item, enabling cost-effective shopping and displaying the results clearly organized by store.
   - Implemented in: `optimizeShoppingBasket()`
 * Best Discounts
-  - Splits the user's basket into store-specific shopping lists by selecting the cheapest available option for each product, helping users make cost-effective purchasing decisions.
-  - Implemented in: 'optimizeShoppingBasket()'
+  - Lists products with the highest current percentage discounts across all tracked stores, highlighting where the best deals are available and displaying detailed price reductions for each product. 
+  - Implemented in: `showBestDiscounts()`
 * New Discounts
+  - Lists discounts newly added within the last 24 hours across all tracked stores.  
+  - Implemented in: `showNewDiscounts()`
 * Dynamic Price History Graphs
+  - Lists price history for a specified product across all stores, or optionally filtered by a specific store, showing users the price trend over time.  
+  - Implemented in: `showPriceHistory()`
 * Product Substitutes & Recommendations
+  - Lists matching alternative products across stores, sorted by value per unit (price divided by package quantity), highlighting the best buy regardless of package size and displaying detailed product information.
+  - Implemented in: `showSubstitutesAndRecommendations()`
 * Custom Price Alert
+  - Allows users to set a target price for a product and displays alerts when matching offers across stores are at or below that price.
+  - Implemented in: `customPriceAlert()`
 
 # Project Structure
 ```
